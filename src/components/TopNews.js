@@ -23,7 +23,7 @@ function TopNews() {
     const interval = setInterval(() => {
       carouselInfiniteScroll(3);
       console.log(currentIndex);
-    }, 100000);
+    }, 5000);
     return () => clearInterval(interval);
   });
 
@@ -43,7 +43,7 @@ function TopNews() {
               key={i}
               className="news-card"
               style={{
-                transform: `translate(-${currentIndex * 108}%)`,
+                transform: `translate(-${currentIndex * 100}%)`,
               }}
             >
               <img src="../../img/news.jpg" alt="" width="327" height="195" />
