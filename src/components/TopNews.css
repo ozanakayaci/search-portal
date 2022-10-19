@@ -1,0 +1,44 @@
+.carousel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 50px 0 100px 0;
+}
+.carousel button {
+  width: 48px;
+  height: 48px;
+  margin: 0px 24px;
+  background: #eeeeee;
+  border-radius: 48px;
+  border: none;
+  font-size: 32px;
+}
+.news {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  width: 100%;
+}
+.news-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  max-width: 328px;
+  transition: 1s cubic-bezier(0.39, 0.575, 0.565, 1);
+  margin-left: 20px;
+}
+.news-card p {
+  color: #090a0a;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+.news-card div {
+  font-family: "Inter", sans-serif;
+  color: #6c7072;
+  font-weight: 400;
+  font-size: 12px;
+}

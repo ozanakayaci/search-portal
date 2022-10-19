@@ -1,0 +1,33 @@
+.main-search {
+  min-width: 646px;
+}
+.quick-results {
+  margin-top: 30px;
+  width: 700px;
+
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border: 1px solid #484848;
+  border-radius: 24px;
+  padding: 35px;
+}
+.quick-results a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.quick-results .left-side {
+  padding-left: 35px;
+  font-size: 16px;
+}
+.show-more {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #090a0a;
+  color: inherit;
+}
